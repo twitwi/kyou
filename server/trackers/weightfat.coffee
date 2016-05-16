@@ -1,7 +1,7 @@
 americano = require 'cozydb'
 
 module.exports =
-    name: "Weight - fat"
+    name: "FatWeight"
     color: "#9C7890"
     description: """
 Your fat mass, in grams."""
