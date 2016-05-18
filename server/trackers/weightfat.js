@@ -10,6 +10,7 @@ module.exports = {
   model: americano.getModel('weight', {
     date: Date
   }),
+  requestName: 'fatWeight',
   request: {
     map: function(doc) {
       return emit(doc.date.substring(0, 10), doc.fatWeight);
